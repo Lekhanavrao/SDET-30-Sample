@@ -27,5 +27,13 @@ public class SimpleProgramTest {
 		
 		System.out.println("Second commit");
 	}
+	
+	@Test
+	public void simpleProgram3()
+	{
+		System.out.println("First commit");
+		
+		System.out.println("Second commit");
+	}
 
 }
