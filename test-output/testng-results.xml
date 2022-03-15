@@ -1,17 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="2" total="4" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="119" started-at="2022-03-11T05:45:08Z" finished-at="2022-03-11T05:45:08Z">
+  <suite name="Suite" duration-ms="145" started-at="2022-03-14T10:16:25Z" finished-at="2022-03-14T10:16:25Z">
     <groups>
+      <group name="smoke">
+        <method signature="CreateContactTest.simpleProgram()[pri:0, instance:gitPractice.CreateContactTest@1753acfe]" name="simpleProgram" class="gitPractice.CreateContactTest"/>
+        <method signature="CreateOrgTest.simpleProgram()[pri:0, instance:gitPractice.CreateOrgTest@548a9f61]" name="simpleProgram" class="gitPractice.CreateOrgTest"/>
+      </group> <!-- smoke -->
     </groups>
-    <test name="Default test" duration-ms="119" started-at="2022-03-11T05:45:08Z" finished-at="2022-03-11T05:45:08Z">
-      <class name="gitPractice.SimpleProgram">
-        <test-method status="PASS" signature="simpleProgram()[pri:0, instance:gitPractice.SimpleProgram@735b5592]" name="simpleProgram" duration-ms="34" started-at="2022-03-11T05:45:08Z" finished-at="2022-03-11T05:45:08Z">
+    <test name="Test" duration-ms="145" started-at="2022-03-14T10:16:25Z" finished-at="2022-03-14T10:16:25Z">
+      <class name="gitPractice.CreateOrgTest">
+        <test-method status="PASS" signature="simpleProgram()[pri:0, instance:gitPractice.CreateOrgTest@548a9f61]" name="simpleProgram" duration-ms="47" started-at="2022-03-14T10:16:25Z" finished-at="2022-03-14T10:16:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- simpleProgram -->
-      </class> <!-- gitPractice.SimpleProgram -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- gitPractice.CreateOrgTest -->
+      <class name="gitPractice.CreateContactTest">
+        <test-method status="PASS" signature="simpleProgram()[pri:0, instance:gitPractice.CreateContactTest@1753acfe]" name="simpleProgram" duration-ms="0" started-at="2022-03-14T10:16:25Z" finished-at="2022-03-14T10:16:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- simpleProgram -->
+      </class> <!-- gitPractice.CreateContactTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
