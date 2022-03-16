@@ -11,6 +11,10 @@ public class CreateOrgTest {
 		System.out.println("Org 2");
 		
 		System.out.println("Org 3");
+		String BROWSER = System.getProperty("browser");
+		System.out.println(BROWSER);
+		
+		
 	}
 	
 	@Test(groups="regression")
