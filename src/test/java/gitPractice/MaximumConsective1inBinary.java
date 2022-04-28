@@ -8,6 +8,7 @@ import java.util.Scanner;
 
 public class MaximumConsective1inBinary {
 	public static void main(String[] args) throws IOException {
+		System.out.println("Enter the number");
 	       Scanner scan=new Scanner(System.in);
 	        List<Integer> list = new ArrayList<Integer>();
 	        int n = scan.nextInt();
